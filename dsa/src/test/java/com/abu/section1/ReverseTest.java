@@ -11,5 +11,6 @@ public class ReverseTest {
   public void reverse() {
     Reverse solution = new Reverse();
     Assert.assertEquals(solution.reverse("dad"), "dad");
+    Assert.assertEquals(solution.reverse("10"), "01");
   }
 }
