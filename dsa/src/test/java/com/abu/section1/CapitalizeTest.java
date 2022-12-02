@@ -12,5 +12,7 @@ public class CapitalizeTest {
     Capitalize capitalize = new Capitalize();
     Assert.assertEquals("A Buddy Let, !here",capitalize.capitalizeSentence("a buddy let, !here"));
     Assert.assertEquals("A Buddy Let, !here",capitalize.capitalizeSentence("a Buddy Let, !here"));
+    Assert.assertEquals("A Buddy Let, !here",capitalize.capitalizeSentenceVersion2("a buddy let, !here"));
+    Assert.assertEquals("A Buddy Let, !here",capitalize.capitalizeSentenceVersion2("a Buddy Let, !here"));
   }
 }
